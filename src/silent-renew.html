@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Silent Renew Token</title>
+</head>
+<body>
+    <script src='oidc-client.js'></script>
+    <script>        
+        new Oidc.UserManager().signinSilentCallback()
+            .then((suc) => {
+                console.log('success', suc)
+            })
+            .catch((err) => {
+                console.log('failed', err)
+            })
+    </script>
+</body>
+</html>
