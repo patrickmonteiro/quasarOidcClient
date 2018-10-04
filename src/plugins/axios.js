@@ -19,5 +19,5 @@ $axios.interceptors.request.use(function (config) {
 })
 
 export default ({ Vue }) => {
-  Vue.prototype.$axios = axios
-} 
+  Vue.prototype.$axios = $axios
+}
