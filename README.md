@@ -19,7 +19,7 @@ npm install
 
 ```
 
-##QUASAR.CONF
+## QUASAR.CONF
 Set up routes for development and production
 ```javascript
 build: {
