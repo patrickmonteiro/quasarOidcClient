@@ -2,10 +2,10 @@
     <q-page>
       <div class="fixed-center text-center">
         <p class="text-faded">
-          <strong>Acesso Negado</strong>
+          <strong>Access denied</strong>
         </p>
         <p class="text-faded">
-          <strong>Redirecionando para login...</strong>
+          <strong>Redirecting to login...</strong>
         </p>
       </div>
     </q-page>

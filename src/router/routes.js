@@ -13,7 +13,6 @@ const routes = [
     children: [
       { path: '/callback', component: () => import('pages/oidc/callback') },
       { path: '/accessdenied', component: () => import('pages/oidc/accessDenied') },
-      { path: '/silentRenew', component: () => import('pages/oidc/silentRenew') }
     ]
   },
 ]

@@ -38,8 +38,8 @@ mgr.events.addAccessTokenExpired(function () {
   console.log('AccessToken Expired：', arguments)
   // alert('Session expired. Going out!')
   Dialog.create({
-    title: 'Sessão Expirada',
-    message: 'Você será redirecionado para se autenticar.',
+    title: 'Session expired',
+    message: 'Redirection to authenticate.',
     preventClose: true
   }).then(() => {
     mgr.signoutRedirect().then(function (resp) {
