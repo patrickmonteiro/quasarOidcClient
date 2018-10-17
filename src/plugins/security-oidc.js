@@ -62,6 +62,7 @@ mgr.events.addUserSignedOut(function () {
       .then(() => {
         mgr.signinRedirect()
       })
+  })
 })
 
 export default class SecurityService {

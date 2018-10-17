@@ -12,9 +12,9 @@ const routes = [
     component: () => import('layouts/oidc'),
     children: [
       { path: '/callback', component: () => import('pages/oidc/callback') },
-      { path: '/accessdenied', component: () => import('pages/oidc/accessDenied') },
+      { path: '/accessdenied', component: () => import('pages/oidc/accessDenied') }
     ]
-  },
+  }
 ]
 
 // Always leave this as last one

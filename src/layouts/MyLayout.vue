@@ -71,7 +71,7 @@ export default {
   data () {
     return {
       leftDrawerOpen: this.$q.platform.is.desktop,
-      mgr: new Mgr(),
+      mgr: new Mgr()
     }
   },
   mounted () {
