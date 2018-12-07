@@ -5,7 +5,8 @@ module.exports = function (ctx) {
     // app plugins (/src/plugins)
     plugins: [
       'axios',
-      'router-oidc'
+      'router-oidc',
+      'oidc'
     ],
     css: [
       'app.styl'

@@ -11,11 +11,11 @@
 </template>
 
 <script>
-import Oidc from 'oidc-client'
+// import Oidc from 'oidc-client'
 
 export default {
   mounted () {
-    var mgr = new Oidc.UserManager({userStore: new Oidc.WebStorageStateStore()})
+    var mgr = this.$oidc
     mgr.signinRedirectCallback().then(function (user) {
       window.location.href = process.env.REDIRECT_CALLBACK
     }).catch(function (err) {

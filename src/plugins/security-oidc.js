@@ -1,3 +1,4 @@
+import 'babel-polyfill'
 import Oidc from 'oidc-client'
 import { Dialog } from 'quasar'
 
