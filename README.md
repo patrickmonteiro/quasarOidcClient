@@ -3,11 +3,11 @@
 Project Quasar Framework with oidc-client library
 
 - Operating System Windows_NT(10.0.17134) - win32/x54
-- [node](https://nodejs.org/en/) 8.9.3
-- npm 5.5.1
-- [quasar-cli](https://quasar-framework.org/guide/quasar-cli.html) 0.17.22
-- quasar framework  0.17.18
-- [vue-cli](https://cli.vuejs.org/) 2.9.6
+- [node](https://nodejs.org/en/) 8.11.3
+- npm 5.6.0
+- [quasar-cli](https://quasar-framework.org/guide/quasar-cli.html) 0.17.23
+- quasar framework  0.17.19
+- [vue-cli](https://cli.vuejs.org/) 3.0.5
 
 
 ## Documentation
